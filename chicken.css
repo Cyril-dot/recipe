@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 15px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px; /* Increase max width if desired */
+    margin: auto; /* Centers the main content */
+}
+
+.ingredients, .instructions, .notes {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: Adds a border to the boxes */
+    width: 100%; /* Makes sections fill the available width */
+}
+
+img.responsive-image {
+    width: auto;
+    height: fit-content;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin: 10px 0 20px 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+.nutrition {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #4CAF50;
+}
